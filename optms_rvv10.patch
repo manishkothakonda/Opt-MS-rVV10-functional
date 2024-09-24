@@ -1,0 +1,15 @@
+--- metagga_original.F	2024-09-24 10:50:15.030753516 -0400
++++ metagga_modified.F	2024-09-24 10:49:53.284693566 -0400
+@@ -122,9 +122,9 @@
+          ID_METAGGA=42
+          LMETA_NEEDS_POT=.TRUE.
+          LMETA_NEEDS_MU=.TRUE.
+-         MSX_RKAPPA=0.504_q
+-         MSX_CFC=0.14601_q
+-         MSX_CFE=4.0_q
++         MSX_RKAPPA=0.2501_q
++         MSX_CFC=0.3916_q
++         MSX_CFE=0.9104_q
+       ELSEIF (SZNAM(1:7)=='RSCANZT') THEN
+          ID_METAGGA=51
+          LMETA_NEEDS_POT=.TRUE.
