@@ -1,5 +1,5 @@
-#####Using Opt(MS+rVV10) Functional in VASP 5.4.4
-###This guide provides step-by-step instructions to modify and compile the VASP code for implementing the Opt(MS+rVV10) functional.
+##### Using Opt(MS+rVV10) Functional in VASP 5.4.4
+### This guide provides step-by-step instructions to modify and compile the VASP code for implementing the Opt(MS+rVV10) functional.
 
 Steps
 1. Create a new copy of the VASP source files
@@ -37,9 +37,9 @@ Once everything is set up, submit your VASP job as usual.
 
 
 
-#####Using Opt(MS+rVV10) Functional in VASP 6.3.1
+##### Using Opt(MS+rVV10) Functional in VASP 6.3.1
 
-####Follow these steps to set up and run the Opt(MS+rVV10) functional in VASP 6.3.1:
+#### Follow these steps to set up and run the Opt(MS+rVV10) functional in VASP 6.3.1:
 
 1. Create a New Copy of the VASP Source Files:
 
