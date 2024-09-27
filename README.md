@@ -31,9 +31,9 @@ After editing the metagga.F file, recompile the VASP code to apply the changes.
 4. Set BPRARAM in the INCAR file
 Before running your job, add the following line in your INCAR file:
 
-
+```
 BPRARAM = 26.26
-
+```
 5. Submit the job
 Once everything is set up, submit your VASP job as usual.
 
@@ -59,9 +59,9 @@ patch metagga.F < optms_rvv10.patch
 4. Set BPRARAM in the INCAR File:
 
 Before running the job, include the following line in your INCAR file to set the required parameter:
-
+```
 BPRARAM = 26.26
-
+```
 5. Submit the Job:
 
 After setup, submit your VASP job as usual.
