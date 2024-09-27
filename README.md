@@ -18,9 +18,11 @@ MSX_CFE = 0.14601_q
 
 
 Modify them to:
+```
 MSX_RKAPPA = 0.2501_q
 MSX_CFC = 0.3916_q
 MSX_CFE = 0.9104_q
+```
 Recompile VASP
 After editing the metagga.F file, recompile the VASP code to apply the changes.
 
