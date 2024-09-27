@@ -10,6 +10,7 @@ Make a copy of the VASP source code in a new folder to keep the original code in
 Navigate to the src directory in the copied folder. Open the metagga.F file.
 
 3. Locate and update the following code lines
+
 Find these lines:
 ```
 MSX_RKAPPA = 0.504_q
