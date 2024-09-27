@@ -39,26 +39,33 @@ Once everything is set up, submit your VASP job as usual.
 
 Using Opt(MS+rVV10) Functional in VASP 6.3.1
 
-1. Create a new copy of the VASP source files
-Make a copy of the VASP source code in a new folder to keep the original code intact.
+Follow these steps to set up and run the Opt(MS+rVV10) functional in VASP 6.3.1:
 
+1. Create a New Copy of the VASP Source Files:
 
-2. Copy the patch file(optms_rvv10.patch) into the src directory
+Duplicate the VASP source code into a new folder to preserve the integrity of the original files.
+Copy the Patch File:
 
-3. Apply the patch using the below code
+2. Move the optms_rvv10.patch file from the repository to the src directory of your VASP source code.
+Apply the Patch:
 
-   ```
-   patch metagga.F < optms_rvv10.patch
-   ```
+3. Apply the patch to modify the metagga.F file by running the following command:
+```
+patch metagga.F < optms_rvv10.patch
+```
 
-4. Set BPRARAM in the INCAR file
-Before running your job, add the following line in your INCAR file:
+4. Set BPRARAM in the INCAR File:
+
+Before running the job, include the following line in your INCAR file to set the required parameter:
 
 BPRARAM = 26.26
 
-5. Submit the job
-Once everything is set up, submit your VASP job as usual.
+5. Submit the Job:
 
+After setup, submit your VASP job as usual.
+
+
+This process ensures that the Opt(MS+rVV10) functional is properly configured for your simulations.
 
 
 
