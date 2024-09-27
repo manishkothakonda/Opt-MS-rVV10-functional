@@ -10,9 +10,11 @@ Navigate to the src directory in the copied folder. Open the metagga.F file.
 
 3. Locate and update the following code lines
 Find these lines:
-'''MSX_RKAPPA = 0.504_q
+```
+MSX_RKAPPA = 0.504_q
 MSX_CFC = 0.14601_q
-MSX_CFE = 0.14601_q'''
+MSX_CFE = 0.14601_q
+```
 
 
 Modify them to:
