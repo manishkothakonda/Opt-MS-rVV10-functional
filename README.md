@@ -37,5 +37,30 @@ Once everything is set up, submit your VASP job as usual.
 
 
 
+Using Opt(MS+rVV10) Functional in VASP 6.3.1
+
+1. Create a new copy of the VASP source files
+Make a copy of the VASP source code in a new folder to keep the original code intact.
+
+
+2. Copy the patch file(optms_rvv10.patch) into the src directory
+
+3. Apply the patch using the below code
+
+   ```
+   patch metagga.F < optms_rvv10.patch
+   ```
+
+4. Set BPRARAM in the INCAR file
+Before running your job, add the following line in your INCAR file:
+
+BPRARAM = 26.26
+
+5. Submit the job
+Once everything is set up, submit your VASP job as usual.
+
+
+
+
 
 
