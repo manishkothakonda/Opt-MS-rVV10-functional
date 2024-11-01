@@ -28,10 +28,11 @@ MSX_CFE = 0.9104_q
 Recompile VASP
 After editing the metagga.F file, recompile the VASP code to apply the changes.
 
-4. Set BPRARAM in the INCAR file
+4. Set BPRARAM and METAGGA tag in the INCAR file
 Before running your job, add the following line in your INCAR file:
 
 ```
+METAGGA = MS2
 BPRARAM = 26.26
 ```
 5. Submit the job
@@ -56,10 +57,11 @@ Apply the Patch:
 patch metagga.F < optms_rvv10.patch
 ```
 
-4. Set BPRARAM in the INCAR File:
+4. Set BPRARAM and METAGGA tag in the INCAR File:
 
 Before running the job, include the following line in your INCAR file to set the required parameter:
 ```
+METAGGA = MS2
 BPRARAM = 26.26
 ```
 5. Submit the Job:
