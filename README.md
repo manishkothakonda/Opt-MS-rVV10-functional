@@ -33,12 +33,13 @@ Before running your job, add the following line in your INCAR file:
 
 ```
 METAGGA = MS2
+LUSE_VDW = True
 BPRARAM = 26.26
 ```
 5. Submit the job
 Once everything is set up, submit your VASP job as usual.
 
-
+Please see the INCAR attached in this repository for the important INCAR tags
 
 # Using Opt(MS+rVV10) Functional in VASP 6.3.1
 
@@ -62,6 +63,7 @@ patch metagga.F < optms_rvv10.patch
 Before running the job, include the following line in your INCAR file to set the required parameter:
 ```
 METAGGA = MS2
+LUSE_VDW = True
 BPRARAM = 26.26
 ```
 5. Submit the Job:
@@ -72,6 +74,6 @@ After setup, submit your VASP job as usual.
 This process ensures that the Opt(MS+rVV10) functional is properly configured for your simulations.
 
 
-
+Please see the INCAR attached in this repository for the important INCAR tags
 
 
